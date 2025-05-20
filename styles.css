@@ -11,9 +11,6 @@
     --font-titulo: "Rakkas", serif;
 }
 
-/* código omitido */
-/* código omitido */
-
 /* Reset */
 * {
     margin: 0;
@@ -38,7 +35,55 @@ p {
 }
 
 img {
-    max-width: 90%;
+    max-width: 50;
+
 }
 
-/* código omitido */
+/*Cabeçalho*/
+header {
+    background: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-family: var(--font-titulo);
+    margin-bottom: 10px;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+
+}
+
+/*Seçoes Principais*/
+.conteudo {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+
+}
