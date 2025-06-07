@@ -127,10 +127,7 @@ footer .cta-footer:hover {
 }
 
 iframe {
-    /* Centralizar o iframe */
-    display: block; /* Para que margin: auto funcione */
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
 }
 
 /* Responsividade */
@@ -145,7 +142,7 @@ iframe {
         align-items: center;
     }
 
-    nav ul li { /* <-- CORREÇÃO AQUI */
+    nav ul li {
         margin: 5px 0;
     }
 
