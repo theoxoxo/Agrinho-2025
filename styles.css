@@ -77,7 +77,7 @@ nav ul li a:hover {
     margin: 20px auto;
     width: 80%;
     border-radius: 10px;
-    box-shadow: 2px 2px 10px ☐ rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Removi o caractere '☐' */
 }
 
 /* Listas */
@@ -127,13 +127,16 @@ footer .cta-footer:hover {
 }
 
 iframe {
-    text-align: center;
+    /* Centralizar o iframe */
+    display: block; /* Para que margin: auto funcione */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Responsividade */
 @media (max-width: 768px) {
     .conteudo{
-        width: 90%
+        width: 90%;
     }
 
     nav ul {
@@ -142,7 +145,7 @@ iframe {
         align-items: center;
     }
 
-    nav ul ali {
+    nav ul li { /* <-- CORREÇÃO AQUI */
         margin: 5px 0;
     }
 
